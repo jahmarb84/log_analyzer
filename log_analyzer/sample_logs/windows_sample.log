@@ -1,0 +1,13 @@
+2024-06-10 08:00:00 INFO Microsoft-Windows-Security-Auditing 4624 An account was successfully logged on. Subject: SYSTEM Account Name: DESKTOP-USER1
+2024-06-10 08:01:00 WARNING Microsoft-Windows-Security-Auditing 4625 An account failed to log on. Account Name: Administrator Source IP: 45.33.32.156
+2024-06-10 08:01:01 WARNING Microsoft-Windows-Security-Auditing 4625 An account failed to log on. Account Name: Administrator Source IP: 45.33.32.156
+2024-06-10 08:01:02 WARNING Microsoft-Windows-Security-Auditing 4625 An account failed to log on. Account Name: admin Source IP: 45.33.32.156
+2024-06-10 08:01:03 WARNING Microsoft-Windows-Security-Auditing 4625 An account failed to log on. Account Name: guest Source IP: 45.33.32.156
+2024-06-10 08:01:04 WARNING Microsoft-Windows-Security-Auditing 4625 An account failed to log on. Account Name: user Source IP: 45.33.32.156
+2024-06-10 08:01:05 WARNING Microsoft-Windows-Security-Auditing 4625 An account failed to log on. Account Name: test Source IP: 45.33.32.156
+2024-06-10 08:05:00 INFO Microsoft-Windows-Security-Auditing 4688 A new process was created. Process Name: cmd.exe Creator Subject: alice
+2024-06-10 08:06:00 WARNING Microsoft-Windows-Security-Auditing 4672 Special privileges assigned to new logon. Account Name: bob Privileges: SeDebugPrivilege SeImpersonatePrivilege
+2024-06-10 08:10:00 ERROR Microsoft-Windows-Security-Auditing 4776 The computer attempted to validate the credentials. Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0 Logon Account: Administrator Error Code: 0xC000006A Source IP: 192.168.50.200
+2024-06-10 08:10:01 ERROR Microsoft-Windows-Security-Auditing 4776 The computer attempted to validate the credentials. Authentication Package: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0 Logon Account: carol Error Code: 0xC000006A Source IP: 192.168.50.200
+2024-06-10 08:15:00 INFO Microsoft-Windows-Security-Auditing 4634 An account was logged off. Account Name: alice
+2024-06-10 08:20:00 WARNING Microsoft-Windows-Security-Auditing 4719 System audit policy was changed. Subject Account Name: SYSTEM

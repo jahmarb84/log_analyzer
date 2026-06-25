@@ -1,0 +1,26 @@
+Jun 10 08:00:01 webserver sshd[1001]: Accepted password for alice from 192.168.1.10 port 52341 ssh2
+Jun 10 08:01:15 webserver sshd[1002]: Failed password for root from 45.33.32.156 port 44234 ssh2
+Jun 10 08:01:16 webserver sshd[1003]: Failed password for root from 45.33.32.156 port 44235 ssh2
+Jun 10 08:01:17 webserver sshd[1004]: Failed password for admin from 45.33.32.156 port 44236 ssh2
+Jun 10 08:01:18 webserver sshd[1005]: Failed password for root from 45.33.32.156 port 44237 ssh2
+Jun 10 08:01:19 webserver sshd[1006]: Failed password for test from 45.33.32.156 port 44238 ssh2
+Jun 10 08:01:20 webserver sshd[1007]: Failed password for ubuntu from 45.33.32.156 port 44239 ssh2
+Jun 10 08:01:21 webserver sshd[1008]: Failed password for oracle from 45.33.32.156 port 44240 ssh2
+Jun 10 08:01:22 webserver sshd[1009]: Failed password for postgres from 45.33.32.156 port 44241 ssh2
+Jun 10 08:01:23 webserver sshd[1010]: Failed password for git from 45.33.32.156 port 44242 ssh2
+Jun 10 08:01:24 webserver sshd[1011]: Failed password for deploy from 45.33.32.156 port 44243 ssh2
+Jun 10 08:01:25 webserver sshd[1012]: Failed password for pi from 45.33.32.156 port 44244 ssh2
+Jun 10 08:01:26 webserver sshd[1013]: Failed password for jenkins from 45.33.32.156 port 44245 ssh2
+Jun 10 08:01:27 webserver sshd[1014]: Failed password for hadoop from 45.33.32.156 port 44246 ssh2
+Jun 10 08:02:00 webserver sshd[1015]: Invalid user ftp from 45.33.32.156 port 44250
+Jun 10 08:02:01 webserver sshd[1016]: Failed password for invalid user ftp from 45.33.32.156 port 44250 ssh2
+Jun 10 08:05:00 webserver sudo[2001]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Jun 10 08:06:00 webserver sudo[2002]: bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/bash
+Jun 10 08:07:00 webserver sudo[2003]: charlie : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/bash
+Jun 10 08:10:00 webserver sshd[3001]: Failed password for alice from 82.165.200.45 port 51000 ssh2
+Jun 10 08:10:01 webserver sshd[3002]: Failed password for alice from 82.165.200.45 port 51001 ssh2
+Jun 10 08:10:02 webserver sshd[3003]: Failed password for bob from 82.165.200.45 port 51002 ssh2
+Jun 10 08:10:03 webserver sshd[3004]: Failed password for carol from 82.165.200.45 port 51003 ssh2
+Jun 10 08:10:04 webserver sshd[3005]: Failed password for dave from 82.165.200.45 port 51004 ssh2
+Jun 10 08:15:00 webserver sshd[4001]: Accepted publickey for alice from 192.168.1.10 port 52400 ssh2
+Jun 10 08:20:00 webserver sshd[5001]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.80.151.100 user=root
