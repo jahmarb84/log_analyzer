@@ -220,3 +220,16 @@ function formatBytes(bytes) {
   if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
   return (bytes / 1048576).toFixed(1) + ' MB';
 }
+const liveWindowsBtn = document.getElementById('liveWindowsBtn');
+if (liveWindowsBtn) {
+  liveWindowsBtn.addEventListener('click', () => {
+    showLoading();
+    fetch('/analyze_live_windows', { method: 'POST' })
+      .then(r => r.json())
+      .then(data => {
+        if (data.error) { hideLoading(); alert(data.error); return; }
+        renderResults(data);
+      })
+      .catch(err => { hideLoading(); alert('Error: ' + err.message); });
+  });
+}
